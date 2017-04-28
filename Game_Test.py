@@ -48,6 +48,13 @@ def quadrillage():#crée le quadrillage
     write("Appuyez sur Espace pour rejouer.",False,'center',("Arial", 16, "bold"))
     update()
 
+    
+    
+    
+    
+def __init__(self):
+   
+
 
 
 def determineCase(x,y):
