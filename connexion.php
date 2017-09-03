@@ -77,3 +77,26 @@ if($_POST['submit']){
         }
 
 ?>
+
+<html>
+    <head>
+        <title>
+            Registration
+        </title>
+    </head>
+ <body>
+<form action="registration.php" method="POST">
+Screen Name:
+<input type="text" id="ScName" name="ScName"  /></br></br>
+First Name:
+<input type="text" id="fname" name="fname"  /></br></br>
+Last Name:
+<input type="text" id="lname" name="lname"  /></br></br>
+Email:
+<input type="text" id="email" name="email"  /></br></br>
+Password:
+<input type="password" id="password" name="password" />  </br></br>
+Confirm Password:
+<input type="password" id="password2" name="password2" />  </br></br>
+
+<input  name="submit" id="submit" type="submit" value="register" />
